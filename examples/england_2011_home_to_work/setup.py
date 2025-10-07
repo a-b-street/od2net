@@ -6,7 +6,7 @@ from utils import *
 
 def makeOSM():
     download(
-        url="https://download.geofabrik.de/europe/great-britain/england-latest.osm.pbf",
+        url="https://download.geofabrik.de/europe/united-kingdom/england-latest.osm.pbf",
         outputFilename="input/input.osm.pbf",
     )
 
