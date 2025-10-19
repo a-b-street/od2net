@@ -90,7 +90,7 @@
     if (example != "") {
       loading = `Loading ${example}`;
       let resp = await fetch(
-        `https://assets.od2net.org/pbf_clips/${example}.osm.pbf`,
+        `https://assets.od2net.org/severance_pbfs/v2/${example}.osm.pbf`,
       );
       loadBytes(await resp.arrayBuffer());
     }
